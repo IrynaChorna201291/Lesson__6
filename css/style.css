@@ -1,0 +1,447 @@
+/* ====================== ШРИФТИ =============================== */
+
+/* ============= */
+/* @import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap&subset=cyrillic-ext"); */
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Regular.woff2") format("woff2"), url("../fonts/lato/Lato-Regular.woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Bold.woff2") format("woff2"), url("../fonts/lato/Lato-Bold.woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Black.woff2") format("woff2"), url("../fonts/lato/Lato-Black.woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	height: 100%;
+	line-height: 1;
+	color: #504848;
+	font-family: "Lato", sans-serif;
+	background-color: #e5e5e5;
+}
+
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	padding: 15px;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+[class*="__title"] {
+	margin: 0px 0px 40px 0px;
+}
+div.body__legends > div > h4 + div > p {
+	margin: 0px 0px 10px 0px;
+}
+.header {
+}
+.header__container {
+}
+.page {
+	max-width: 810px;
+	margin: 0px auto;
+}
+.page__section {
+	margin: 0px 0px 40px 0px;
+}
+.page > section + section {
+	margin: 0px 0px 0px 0px;
+}
+.article-block {
+}
+.article-block__container {
+}
+.article-block__content {
+}
+.content-article {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content-article__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: calc(59.8 / 46);
+	color: rgba(30, 33, 44, 1);
+	text-shadow: 0px 4px 4px rgba(30, 33, 44, 1);
+	margin: 0px 0px 92px 0px;
+}
+.content-article__image {
+	text-align: center;
+	max-width: 810px;
+	margin: 0px 0px 60px 0px;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content-article__image img {
+	width: 100%;
+}
+.content-article__text-shadow {
+	margin: 0px 0px 24px 0px;
+}
+.content-article__text-shadow p {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: calc(30 / 20);
+	color: rgba(30, 33, 44, 1);
+	text-shadow: 0px 4px 4px rgba(30, 33, 44, 1);
+}
+.content-article__text {
+	line-height: calc(25.6 / 16);
+	margin: 0px 0px 48px 0px;
+}
+.content-article__text p {
+	margin: 0px 0px 22px 0px;
+	line-height: calc(25.6 / 16);
+}
+.content-article__text > p {
+	margin: 0px 0px 39px 0px;
+}
+.content-article__text > p + p {
+	margin: 0px 0px 0px 0px;
+}
+.content-article ul {
+	margin: 0px 0px 24px 0px;
+}
+.content-article li {
+	margin: 0px 0px 4px 0px;
+	padding-left: 32px;
+}
+.content-article li + li + li + li {
+	margin: 0px 0px 0px 0px;
+}
+.content-article__text ul + p {
+	margin: 0px 0px 0px 0px;
+}
+.content-article__text-blockquote {
+	padding: 0px 0px 0px 52px;
+	margin: 0px 0px 48px 0px;
+}
+.content-article__text-blockquote p {
+	text-shadow: none;
+	line-height: calc(25.6 / 16);
+}
+.content-article__text-blockquote + div {
+	margin: 0px 0px 0px 0px;
+}
+
+.list {
+}
+/* ============ */
+.block {
+}
+.block__container {
+}
+.block__content {
+}
+.content-block {
+}
+
+.title {
+	background-color: #00ffff;
+	border-radius: 5px;
+	font-size: 37px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #730909;
+	display: inline-block;
+	padding: 10px;
+	border: 5px double #7a956b;
+	text-decoration: underline;
+}
+.content-block__header {
+	text-align: center;
+}
+.content-block__title {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 50px;
+	color: #3f1269;
+	letter-spacing: 2px;
+	text-shadow: 0px 4px 4px #209558;
+	border: 5px dotted #857578;
+	border-radius: 10px;
+	margin: 0px 0px 30px 0px;
+}
+.content-block__yellow,
+.content-block__blue {
+	font-size: 0;
+}
+.content-block__yellow span,
+.content-block__blue span {
+	font-size: 30px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+}
+.content-block__blue span {
+	background-color: #1856a7;
+	color: #1856a7;
+}
+.content-block__yellow span {
+	background-color: #ffd700;
+	color: #ffd700;
+	margin: 0px 0px 25px 0px;
+}
+
+.content-block__subtitle {
+	font-style: oblique;
+	text-align: right;
+	margin: 0px 0px 20px 0px;
+	font-size: 20px;
+}
+.content-block__subtitle span {
+	font-weight: 700;
+	color: #00008b;
+	text-decoration: underline;
+	outline: 2px solid #730909;
+}
+.body__image {
+	max-width: 700px;
+	margin: 0px auto 30px auto;
+	text-align: center;
+}
+.body__image img {
+	width: 100%;
+}
+.body__text {
+	margin: 0px 0px 22px 0px;
+}
+.body__text p {
+	margin: 0px 0px 40px 0px;
+}
+.body__text p + p {
+	color: #209558;
+	text-transform: capitalize;
+	text-decoration: underline;
+	max-height: 30px;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+}
+.content-block__menu {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #916767;
+	border-radius: 10px 30px;
+	margin: 0px 0px 25px 0px;
+	box-shadow: 1px 2px 0px 3px #521788, inset 1px -2px 3px 2px #908cab;
+}
+.content-block__menu ul {
+	padding: 0px 0px 0px 20px;
+}
+.content-block__menu ul li {
+	text-shadow: 1px 2px 1px #000;
+	text-transform: uppercase;
+	color: #ffff00;
+}
+.content-block__menu ul > li {
+	margin: 0px 0px 8px 0px;
+}
+.content-block__menu ul > li + li {
+	color: #0000ff;
+	text-transform: lowercase;
+}
+.content-block__menu ul > li + li + li {
+	text-transform: uppercase;
+
+	color: #ffff00;
+}
+.content-block__menu ul > li + li + li + li {
+	text-transform: lowercase;
+
+	color: #0000ff;
+}
+
+.content-block__menu ul > li + li + li + li + li {
+	text-transform: uppercase;
+
+	color: #ffff00;
+	margin: 0px 0px 0px 0px;
+}
+.menu {
+}
+.menu__list {
+}
+.menu__link {
+}
+.content-block__body {
+}
+.body__legends > div {
+	margin: 0px 0px 40px 0px;
+}
+.body__legends div.legend-last {
+	margin: 0px 0px 0px 0px;
+}
+.legend-sword {
+}
+.legend-sword__title {
+	text-decoration: none;
+	color: #00008b;
+}
+div.legend-sword > h4 + div.legend-sword__text > p + p + p {
+	margin: 0px 0px 0px 0px;
+	opacity: 0;
+}
+.legend-sword__text > p > a {
+	display: inline-block;
+	padding: 5px;
+	background-color: #e6e220;
+	border-radius: 20px 10px 2px 30px;
+	letter-spacing: 10px;
+	text-shadow: 2px -1px 0 rgb(125, 9, 9);
+	box-shadow: 1px 2px 1px 3px #521788;
+	font-size: 20px;
+}
+.legend-sword__text > p + p > a {
+	outline: 3px dashed #198bb5;
+	text-shadow: none;
+	box-shadow: none;
+	opacity: 0.2;
+}
+.legend-ivan {
+}
+.legend-ivan__title {
+}
+.legend-ivan__text {
+}
+div.legend-ivan__text > p + p + p {
+	display: none;
+}
+
+div.legend-ivan > h4 + div.legend-ivan__text > p + p {
+	margin: 0px 0px 0px 0px;
+}
+.legend-ivan__text > p > span {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	color: transparent;
+	box-shadow: 10px 0 0 5px #9f1111;
+}
+.legend-kozak {
+}
+.legend-kozak__title {
+}
+.legend-kozak__radius {
+	font-size: 0;
+	margin: 0px 0px 10px 0px;
+}
+.legend-kozak__red span,
+.legend-kozak__black span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50% 30% 10%;
+}
+.legend-kozak__red span {
+	background-color: #c91111;
+}
+.legend-kozak__black span {
+	background-color: #0c0101;
+}
+.legend-kozak__text > p {
+	margin: 0px 0px 25px 0px;
+	border: 2px dashed #393939;
+	padding: 10px;
+}
+div.legend-kozak > h4 + div + div.legend-kozak__text > p + p {
+	margin: 0px 0px 0px 0px;
+}
+.legend-forelock {
+}
+.legend-forelock__title {
+}
+.legend-forelock__text {
+	max-width: 600px;
+}
+.legend-forelock__text span {
+	display: inline-block;
+	width: 50%;
+	height: 2px;
+	background-color: #000;
+	margin: 0px 0px 32px 0px;
+}
+
+.legend-forelock__poem {
+	color: #561a1a;
+	border-radius: 10px;
+	background-color: #010b05;
+	padding: 8px;
+	text-align: center;
+	max-width: 400px;
+}
+div.legend-forelock > h4 + div.legend-forelock__text > p + p + span + p {
+	margin: 0px 0px 0px 0px;
+}
+
+.legend-treasure {
+}
+.legend-treasure__title {
+}
+.legend-treasure__text {
+}
+.legend-treasure__text > p {
+	color: #ab3f3f;
+	text-transform: lowercase;
+	border: 4px solid #6e198d;
+	padding: 10px;
+}
+.legend-treasure__text > p + p {
+	color: #134b29;
+	text-transform: uppercase;
+	border-top: 3px solid #29a437;
+	border-right: 5px dotted #08a5ab;
+	border-bottom: 4px dashed #31073a;
+	border-left: none;
+}
+div.legend-treasure > h4 + div.legend-treasure__text > p + p + p {
+	margin: 0px 0px 0px 0px;
+}
+.legend-last p {
+	margin: 0px 0px 30px 0px;
+	visibility: hidden;
+}
+div.line {
+	max-width: 500px;
+	margin: 0px 0px 5px 0px;
+}
+section > div > div > div + div > div + div + div > div + div + div + div + div + div > div.line > span {
+	display: inline-block;
+	background-color: #b11f1f;
+	width: 70%;
+	height: 3px;
+}
+.legend-last > div + p + div > span.border {
+	font-size: 15px;
+	border: 4px dotted #522493;
+	line-height: calc(40 / 15);
+}
+
+.footer {
+}
+.footer__container {
+	text-align: center;
+	padding: 20px;
+	background-color: #545991;
+}
+.footer__text span {
+	color: #e6e220;
+	font-style: oblique;
+}
